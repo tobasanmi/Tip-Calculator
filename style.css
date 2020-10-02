@@ -1,8 +1,10 @@
 body{
     width: 100%;
-    display: flex;
-    justify-content:center;
-    align-content: center;
+    position:relative;
+    background-color: black;
+    /* display: flex; */
+    /* justify-content:center;
+    align-content: center; */
 }
 .input{
         padding:20px;
@@ -16,6 +18,10 @@ select, input {
 #container{
     background-color:teal;
     box-shadow: 10px 10px 2px  rgba(0,128,128,0.2);
+    position:absolute;
+    top:50%;
+    left:35%;
+    margin: 100px 0 0 -25px;
 }
 h1{
     text-align: center;
